@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+gimpysolver/captchaSolver.h5
+gimpysolver/gimpysolver.egg-info/PKG-INFO
+gimpysolver/gimpysolver.egg-info/SOURCES.txt
+gimpysolver/gimpysolver.egg-info/dependency_links.txt
+gimpysolver/gimpysolver.egg-info/top_level.txt
+gimpysolver/model/captchaSolver.h5

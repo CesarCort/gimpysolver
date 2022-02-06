@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gimpysolver
+Version: 0.0.1
+Summary: a small package to solve Gimpy Captcha with 92 porcent of accuracy.
+Home-page: https://github.com/pypa/sampleproject
+Author: César Cortez
+Author-email: cc@digitaliatec.com
+License: UNKNOWN
+Project-URL: Bug Tracker, 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU AGPLv3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: This small package has been designed to solve captcha into Scrapping Seace Project.
+License-File: LICENSE
+
+# Gimpy-r Captcha Solver
+This small package has been designed to solve captcha into Scrapping Seace Project.
+
+#1 install with pip install gimpysolver
+
+#2 use: from gimpysolver import captchaSolverRPA #
+
+#3 Create the object with captcha = captchaSolverRPA.captcha_solver(path_img).
+Remember that image size is 380,85 if isn't you can try with captcha.resize()
+
+#4 Predict result: captcha.predict()
+
+#5 Read explample.py and test_images folder to test and understand how function with more images.
+
+
