@@ -4,7 +4,7 @@ setup(
   name = 'gimpysolver',         # How you named your package folder (MyLib)
   packages = ['gimpysolver'],   # Chose the same as "name"
   version = '0.0.1',      # Start with a small number and increase it with every change you make
-  license='GNU AGPLv3',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
+  license='GPL',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'a small package to solve Gimpy Captcha with 92 porcent of accuracy.',   # Give a short description about your library
   author = 'César Cortez',                   # Type in your name
   author_email = 'cc@digitaliatec.com',      # Type in your E-Mail
