@@ -1,13 +1,19 @@
-# Gimpy-r Captcha Solver
-This small package has been designed to solve captcha into Scrapping Seace Project.
+﻿# Readme!
 
-#1 install with pip install gimpysolver
+This is a simple and specific solver to gimpy captcha types like SEACE PORTAL. The model has been trained with 4000 images and 92 porcent of accuracy.
 
-#2 use: from gimpysolver import captchaSolverRPA #
 
-#3 Create the object with captcha = captchaSolverRPA.captcha_solver(path_img).
-Remember that image size is 380,85 if isn't you can try with captcha.resize()
+# steps
 
-#4 Predict result: captcha.predict()
+ 1. pip install gimpysolver
+ 2. Import the package like:  from gimpysolver import captchaSolverRPA
+ 3. Create your first object captchasolver. 
+ myCaptcha = captchaSolverRPA.captcha_solver(path_img). 
+ *Where path_img es where you image exist.*
+ **Caution** Only read *.png images and size image would be 380,85
+ 5. If you don't meet requirements about image dimension you can resize with: myCaptcha.resize()
+ 6. To solve captcha you can call predict method: myCaptcha.predict()
+ 
+**Gimpy captcha SEACE example***![Gimpy captcha example](https://i.ibb.co/RNHtgm5/captcha-capture-1.png)
 
-#5 Read explample.py and test_images folder to test and understand how function with more images.
+
