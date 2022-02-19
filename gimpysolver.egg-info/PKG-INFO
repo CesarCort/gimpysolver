@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: gimpysolver
-Version: 0.0.14
+Version: 0.0.15
 Summary: This is a simple and specific solver to gimpy captcha types like SEACE PORTAL. The model has been trained with 4000 images and 92 porcent of accuracy.
 Home-page: http://github.com/CesarCort/gimpysolver
 Author: Cesar Cortez

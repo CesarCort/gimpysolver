@@ -19,7 +19,7 @@ with open("README.rst", "r", encoding="utf-8") as fh:
 setup(
   name = 'gimpysolver',         # How you named your package folder (MyLib)
   #packages = setuptools.find_packages(where="gimpysolver"),   # Chose the same as "name"
-  version = '0.0.14',      # Start with a small number and increase it with every change you make
+  version = '0.0.15',      # Start with a small number and increase it with every change you make
   license='gpl-3.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = ('This is a simple and specific solver to gimpy captcha types like SEACE PORTAL. The model has been trained with 4000 images and 92 porcent of accuracy.'),   # Give a short description about your library
   long_description=read("README.rst"),
@@ -33,6 +33,7 @@ setup(
   keywords = ['CAPTCHA', 'CAPTCHASOLVER', 'GIMPY','GIMPYSOLVER','SOLVER'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
          'keras==2.7.0',
+	'tensorflow==2.7.0',
 	'opencv-python==4.5.1.48',
 	'importlib==1.0.4'
       ],
