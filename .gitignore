@@ -1,6 +1,6 @@
 *.git
 *.pypirc
-*./__pycache__
+__pycache__/
 # Distribution / packaging
 .Python
 build/
