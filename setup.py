@@ -18,8 +18,8 @@ with open("README.rst", "r", encoding="utf-8") as fh:
 
 setup(
   name = 'gimpysolver',         # How you named your package folder (MyLib)
-  #packages = setuptools.find_packages(where="gimpysolver"),   # Chose the same as "name"
-  version = '0.0.15',      # Start with a small number and increase it with every change you make
+  packages = setuptools.find_packages(),   # Chose the same as "name"
+  version = '0.0.17',      # Start with a small number and increase it with every change you make
   license='gpl-3.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = ('This is a simple and specific solver to gimpy captcha types like SEACE PORTAL. The model has been trained with 4000 images and 92 porcent of accuracy.'),   # Give a short description about your library
   long_description=read("README.rst"),

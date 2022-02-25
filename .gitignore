@@ -1,7 +1,10 @@
 # Distribution / packaging
 *.git
 *.pypirc
-__pycache__/
+gimpysolver/__pycache__/*
+__pycache__/*
+gimpysolver.egg-info/
+gimpysolver.egg-info/*
 .Python
 build/
 develop-eggs/
